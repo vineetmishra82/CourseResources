@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="heading">
+        <h1>Java Coffee to Code -> Course Resources</h1>
+      </div>
+    <div id="listItems">
+    <ol >
+      <li className='liItem'>Class Notes - <a target='new' href='https://docs.google.com/document/d/1BxORzBcoxVBlVFCe8yDOEmlcvGNjL8UmwD7dHlT_szg/edit?usp=share_link'>Notes Link</a> </li>
+      <li className='liItem'>JDK - <a target='new' href='https://www.oracle.com/in/java/technologies/downloads/'>JDK Download Link</a></li>
+      <li className='liItem'>Eclipse IDE - <a target='new' href='https://www.eclipse.org/downloads/packages/'>Eclipse Download Link</a></li>
+      <li className='liItem'>First Program Hello World - <a target='new' href='https://docs.google.com/document/d/1zOLp9jCDO4WFzdSVYuDMEVK4TjOD5GmmIumis5YLhqM/edit?usp=sharing'>Code File Link</a></li>
+    </ol>
+
+    </div>
+
     </div>
   );
 }
